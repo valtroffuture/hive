@@ -777,7 +777,8 @@ public class HiveDatabaseMetaData implements DatabaseMetaData {
   }
 
   public boolean nullsAreSortedAtEnd() throws SQLException {
-    throw new SQLException("Method not supported");
+    //throw new SQLException("Method not supported");
+    return true;
   }
 
   public boolean nullsAreSortedAtStart() throws SQLException {
