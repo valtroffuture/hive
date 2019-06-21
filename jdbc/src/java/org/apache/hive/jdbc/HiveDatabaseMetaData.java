@@ -818,27 +818,33 @@ public class HiveDatabaseMetaData implements DatabaseMetaData {
   }
 
   public boolean storesLowerCaseIdentifiers() throws SQLException {
-    throw new SQLException("Method not supported");
+    //throw new SQLException("Method not supported");
+    return false;
   }
 
   public boolean storesLowerCaseQuotedIdentifiers() throws SQLException {
-    throw new SQLException("Method not supported");
+    //throw new SQLException("Method not supported");
+    return false;
   }
 
   public boolean storesMixedCaseIdentifiers() throws SQLException {
-    throw new SQLException("Method not supported");
+    //throw new SQLException("Method not supported");
+    return true;
   }
 
   public boolean storesMixedCaseQuotedIdentifiers() throws SQLException {
-    throw new SQLException("Method not supported");
+    //throw new SQLException("Method not supported");
+    return true;
   }
 
   public boolean storesUpperCaseIdentifiers() throws SQLException {
-    throw new SQLException("Method not supported");
+    //throw new SQLException("Method not supported");
+    return false;
   }
 
   public boolean storesUpperCaseQuotedIdentifiers() throws SQLException {
-    throw new SQLException("Method not supported");
+    //throw new SQLException("Method not supported");
+    return false;
   }
 
   public boolean supportsANSI92EntryLevelSQL() throws SQLException {
@@ -963,11 +969,13 @@ public class HiveDatabaseMetaData implements DatabaseMetaData {
   }
 
   public boolean supportsMixedCaseIdentifiers() throws SQLException {
-    throw new SQLException("Method not supported");
+    //throw new SQLException("Method not supported");
+    return true;
   }
 
   public boolean supportsMixedCaseQuotedIdentifiers() throws SQLException {
-    throw new SQLException("Method not supported");
+    //throw new SQLException("Method not supported");
+    return true;
   }
 
   public boolean supportsMultipleOpenResults() throws SQLException {
